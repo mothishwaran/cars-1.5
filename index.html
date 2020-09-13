@@ -12,15 +12,27 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
 
-    <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAjZgateUENcEjhQHGZkPlrsXSvOv0OHhQ",
+    authDomain: "cars-1-6b84a.firebaseapp.com",
+    databaseURL: "https://cars-1-6b84a.firebaseio.com",
+    projectId: "cars-1-6b84a",
+    storageBucket: "cars-1-6b84a.appspot.com",
+    messagingSenderId: "337934367297",
+    appId: "1:337934367297:web:94c924172cc929d45ce4c0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
